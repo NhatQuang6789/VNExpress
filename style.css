@@ -1,0 +1,149 @@
+body{
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color:#333;
+}
+.container_default{
+	width:100%;
+	position:relative;
+}
+.core{
+	width:70%;
+	margin:50px 15%;
+	border:2px solid #ccc;
+	border-radius: 10px;
+	padding:10px;
+}
+.core h4{
+	color:#af2020;
+	text-align: center;
+	font-style: italic;
+}
+.header_main{
+	width:70%;
+	float:left;
+
+}
+.header_suggess{
+	width:30%;
+	float:left;
+	padding:10px;
+	border-left:1px solid #ccc;
+}
+.clear{
+	clear: both;
+}
+.wrap_image{
+	width:100%;
+	height:300px;
+}
+.wrap_image img{
+	width:90%;
+	height:90%;
+	margin:5px 5% 0 5%;
+	border-radius:10px;
+}
+.wrap_title{
+	text-align: center;
+}
+.wrap_description{
+	font-style: italic;
+	margin-left:15px;
+}
+.title_sug{
+	font-weight:bolder;
+}
+.des_sug{
+	font-style: italic;
+	margin:10px;
+}
+.row_sug{
+	border-top:1px solid #ccc;
+	padding:10px;
+}
+.lay_left{
+	width:22%;
+	float:left;
+}
+.lay_right{
+	width:78%;
+	float:right;
+	padding-top:10px;
+}
+.body_content{
+	padding:10px;
+}
+.row_main{
+	width:100%;
+	margin-top:15px;
+	border-radius:10px;
+	box-shadow:2px 1px 5px 1px;
+}
+.row_main img{
+	margin:5px;
+	border-radius:10px;
+	height:100%;
+}
+.main_title{
+	font-weight:bolder;
+	margin-bottom:10px;
+}
+.header_new{
+	border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+}
+.header_title{
+	font-weight:bolder;
+	text-align:center;
+	font-size:1.3em;
+	color:#333;
+}
+.header_description{
+	font-weight:bold;
+	font-style: italic;
+	color:#333;
+	margin-top:15px;
+}
+.dialog_box{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: rgba(0,0,0,0.7);
+	display:none;
+}
+.box_content{
+	width:60%;
+	background-color: #fff;
+	margin:50px 20%;
+	border-radius:10px;
+	overflow: auto;
+	height:650px;
+	padding:20px;
+}
+.close{
+	color:#333;
+	position:absolute;
+	top:60px;
+	right:21%;
+	font-size: 1.2em;
+	cursor:pointer;
+}
+.close:hover{
+	color:#af2020;
+}
+.header_content{
+	margin-top:15px;:;
+}
+.header_content img{
+	width:80%;
+	margin:20px 10%;
+}
+
